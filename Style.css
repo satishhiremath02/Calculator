@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #c3eafc;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    background-color: #032436;
+    padding: 20px;
+    border-radius: 9px;
+} 
+.calculator input{
+    height: 55px;
+    width: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    background: transparent;
+}
+.display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+}
+.display input{
+    flex: 1;
+    text-align: right;
+    font-size: 40px;
+    border: none;
+}
